@@ -54,34 +54,3 @@ server.post('/login',loginRequestHandler)
 
 
 
-
-
-
-// const serveHomePage =(req,res)=> {
-//     //res.send("Hello this is the home page handler")
-//     // 1.Find the file
-//         const homeageFilePath = path.join(__dirname,"public","index.html")
-//     //2.send the file to the client
-//     res.sendFile(homeageFilePath)
-
-// }
-
-
-// const serveProfilePage =(req,res)=> {
-//     //res.send("Hello this is the home page handler")
-//     // 1.Find the file
-//         const homeageFilePath = path.join(__dirname,"public","profile.html")
-//     //2.send the file to the client
-//     res.sendFile(homeageFilePath)
-
-// }
-
-
-// const serveAboutPage =(req,res)=> {
-//     const aboutPageFile = path.join(__dirname,"public","about.html")
-//     res.sendFile(aboutPageFile)
-// }
-//route definitions.
-// server.get("/",serveHomePage)
-// server.get("/profile",serveProfilePage)
-// server.get("/about",serveAboutPage)
